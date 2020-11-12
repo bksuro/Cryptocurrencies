@@ -2,9 +2,9 @@
 
 ## Overview
 
-We are using unsupervised learning to process data, cluster data, reduce data dimensions, and reduce the principal components using PCA to create an analysis for your clients who are preparing to get into the cryptocurrency market.
+Analysis of the available Cryptocurrency information to help prepare clients getting into cryptocurrency market by using unsupervised learning to process data, cluster data, reduce data dimensions, and reduce the principal components using PCA.
 
-This project consists of four technical analysis deliverables:
+Tasks are divided as shown below:
  - 1: Preprocessing the Data for PCA
  - 2: Reducing Data Dimensions Using PCA
  - 3: Clustering Cryptocurrencies Using K-means
@@ -14,6 +14,7 @@ This project consists of four technical analysis deliverables:
 ## Resources
   - Data Source: crypto_data.csv
   - Software: anaconda3, python 3.7.7, jupyter notebook
+  - Librarys: pandas, hvplot, path, plotly.express, sklearn.preprocessing (StandardScaler, MinMaxScaler), sklearn.decomposition (PCA), sklearn.cluster (KMeans)
 
 
 ## Results
@@ -86,3 +87,4 @@ This project consists of four technical analysis deliverables:
 
 ## Summary
 
+Based on the analysis we can show that there are 532 coins that are being currently actively traded in cryptocurrency market. Further analysis can be done on these coins to see what are the better contenders for mining and suggesting them for our clients.
